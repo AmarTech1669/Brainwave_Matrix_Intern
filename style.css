@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Added for better box model handling */
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 0 auto; /* Center container */
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 67px;
+    list-style: none; /* Ensure no default list style */
+}
+
+.navbar li {
+    margin: 0 12px;
+}
+
+.navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Use inherited text color */
+}
+
+.topleft, .topright {
+    width: 100%;
+    height: auto;
+}
+
+.section1 {
+    padding: 50px 0; /* Added padding for better spacing */
+}
+
+.section2 {
+    padding: 50px 0;
+}
+
+.section2 p {
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.section2 h1 {
+    font-size: 2rem;
+}
+
+.btn {
+    padding: 7px 12px;
+    border: 2px solid red;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(29, 88, 214);
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.btn:hover {
+    background-color: rgb(25, 78, 190); /* Darker blue on hover */
+}
+
+.logo {
+    font-size: 1.3rem;
+}
+
+.gym5img {
+    width: 100%; /* Make image responsive */
+    height: auto;
+    max-width: 700px;
+    margin: 0 auto; /* Center image */
+    display: block; /* Center image */
+}
+
+.dumbellimg {
+    width: 100%;
+    height: auto;
+    max-width: 150px;
+    margin: 0 auto; /* Center image */
+    display: block; /* Center image */
+}
+
+.box {
+    padding: 20px;
+    margin: 20px;
+    flex: 1;
+    border: 2px solid rgb(218, 118, 25);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.box h2 {
+    font-size: 2rem;
+    padding: 10px 0;
+}
+
+.box ul {
+    list-style-type: none;
+    padding: 0; /* Remove default padding */
+}
+
+.box ul li {
+    margin: 12px 0;
+}
+
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.plantable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table {
+    width: 100%;
+    margin: 40px 0 140px;
+    border-collapse: collapse;
+}
+
+.section3 table th,
+.section3 table td {
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.footer {
+    padding: 23px;
+    text-align: center;
+}
+.buttons{
+    text-align: center;
+}
